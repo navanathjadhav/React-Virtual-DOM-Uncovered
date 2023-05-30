@@ -25,9 +25,6 @@ The JSX code is compiled into regular JavaScript code using a transpiler like Ba
 2.  Transformation
     The JSX syntax is transformed into regular JavaScript code using a transpiler like Babel. This involves converting JSX elements and attributes into function calls that create React elements.
 
-3.  Minification
-    It refers to the process of removing unnecessary characters, such as whitespace, comments, and line breaks, from the generated JavaScript code. The purpose of minification is to reduce the file size and improve the overall performance of the application.
-
 ## Create Virtual DOM Tree Representation
 
 The compiled JSX code is used to create a lightweight in-memory representation of the DOM called the Virtual DOM tree. This tree consists of React elements that correspond to the components and their structure in the JSX code.
@@ -157,7 +154,7 @@ After the reconciliation process, React has a finalized Virtual DOM tree. It the
 
 ## Conclusion
 
-Understanding React's Virtual DOM workflow is crucial for efficient web development. From JSX compilation to rendering, each step plays a vital role in optimizing performance and user experience. Diffing and reconciliation minimize unnecessary updates, while component lifecycle methods handle mounting, props, and state updates. Minification further improves performance by reducing file size. Mastering this workflow empowers developers to build high-performing React applications.
+Understanding React's Virtual DOM workflow is crucial for efficient web development. From JSX compilation to rendering, each step plays a vital role in optimizing performance and user experience. Diffing and reconciliation minimize unnecessary updates, while component lifecycle methods handle mounting, props, and state updates. Mastering this workflow empowers developers to build high-performing React applications.
 
 ## Share & Care
 
